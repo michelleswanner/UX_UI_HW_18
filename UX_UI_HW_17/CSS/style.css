@@ -1,0 +1,22 @@
+
+  header {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #E4CCFF; 
+    .logo {
+        width: 23%;
+        padding: 1%;
+        text-align: center;
+    }
+    .nav {
+        width: 73%;
+        padding: 1%;
+    }
+    .ul {
+        width: 50%;
+        margin-left: auto;
+    }
+    }
+
+
+  
