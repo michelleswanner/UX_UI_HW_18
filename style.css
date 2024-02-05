@@ -1,19 +1,22 @@
+.resume{
+    font-family: 'Italiana', sans-serif;
+    text-align: center;
+}
+
+    
+
 .flexContainer{
     display: flex;
     background-color: #F1E9DF;
+    flex-direction: column;
     
 
 }
-    h1{
-        font-family: 'Italiana', sans-serif;
-        text-align: center;
 
-    }
-
-    h2{
+    .h2{
         width: 10%;
         font-family: 'Italiana', sans-serif;
-        text-align: right;
+        
         p1{
             text-wrap: balance;
         }
@@ -21,10 +24,10 @@
 
     }
     
-    h3{
+    .h3{
         width: 10%;
         font-family: 'Italiana', sans-serif;
-        text-align: right;
+        
         p2{
             text-wrap: balance;
         }
@@ -32,13 +35,38 @@
 
     }
 
-    h4{
-        width: 90%;
+    .h4{
+        width: 10%;
         font-family: 'Italiana', sans-serif;
-        text-align: left;
+        
         p3{
             text-wrap: pretty;
         }
         
+
+    }
+
+    .projects{
+        font-family: 'Italiana', sans-serif;
+        text-align: center;
+        background-color: #F1E9DF;
+        display: grid;
+    
+    }
+    .workGrid[
+        display: grid;
+    ]
+
+    .gridContainer{
+        grid-template-columns: 33% 33% 33%;
+
+    }
+    
+    @media only screen and (max-width: 600px){
+        #ForbesHouseRedesign{
+            grid-template-columns: 33% 33% 33%;
+            display: grid;
+
+        }
 
     }
