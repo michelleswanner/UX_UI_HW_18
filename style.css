@@ -1,11 +1,34 @@
+/* Navigation styles */
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #E4CCFF;
+}
+.logo{
+    background-color: #E4CCFF;
+    height: 60px;
+
+
+.nav { 
+    display: flex;
+    padding: 20px;
+}
+
+.center {
+    font-family: 'Italiana', sans-serif;
+    text-align: right;
+
+}
+
+}
+
 .resume{
     font-family: 'Italiana', sans-serif;
     text-align: center;
 }
 
-    
-
-.flexContainer{
+ .flexContainer{
     display: flex;
     background-color: #F1E9DF;
     flex-direction: column;
@@ -13,19 +36,19 @@
 
 }
 
-    .h2{
+.h2{
         width: 10%;
         font-family: 'Italiana', sans-serif;}
         
-  .p1{
+ .p1{
     text-wrap: balance;
     }
         
 
     
     
-    .h3{
-        width: 10%;
+   .h3{
+         width: 10%;
         font-family: 'Italiana', sans-serif;}
         
         .p2{
