@@ -15,36 +15,36 @@
 
     .h2{
         width: 10%;
-        font-family: 'Italiana', sans-serif;
+        font-family: 'Italiana', sans-serif;}
         
-        p1{
-            text-wrap: balance;
-        }
+  .p1{
+    text-wrap: balance;
+    }
         
 
-    }
+    
     
     .h3{
         width: 10%;
-        font-family: 'Italiana', sans-serif;
+        font-family: 'Italiana', sans-serif;}
         
-        p2{
+        .p2{
             text-wrap: balance;
         }
         
 
-    }
+    
 
     .h4{
         width: 10%;
-        font-family: 'Italiana', sans-serif;
+        font-family: 'Italiana', sans-serif;}
         
-        p3{
+     .p3{
             text-wrap: pretty;
         }
         
 
-    }
+    
 
     .projects{
         font-family: 'Italiana', sans-serif;
@@ -53,9 +53,9 @@
         display: grid;
     
     }
-    .workGrid[
+    .workGrid{
         display: grid;
-    ]
+    }
 
     .gridContainer{
         grid-template-columns: 33% 33% 33%;
